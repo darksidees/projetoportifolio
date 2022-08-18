@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: rgb(43,251,248);
+    background: linear-gradient(87deg, rgba(43,251,248,1) 0%, rgba(251,43,150,1) 100%);
+    font-family: Orbitron;
+}
+
+footer{
+    background: black;
+    padding: 9px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+.cabeçalho{
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu_opções{
+    display: flex;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 670px;
+    gap: 50px;
+    color: black;
+    text-decoration: underline;
+}
+
+.divisão_menu{
+    margin-top: 20px;
+    border-top: 3px solid black;
+    padding-bottom: 50px;
+}
+
+.saudação{
+    margin-left: 30px;
+    font-size: 28px;
+}
+
+.conteudo{
+    margin-left: 190px;
+    margin-top: 200px;
+}
+
+.conteudo > h1{
+    font-size: 40px;
+    color: white;
+}
+
+.conteudo > h2{
+    padding-top: 6px;
+    font-size: 25px;    
+}
+
+.especializações{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 120px;
+    width: 120px;
+    padding-top: 30px;
+    padding-left: 150px;
+    margin-bottom: 161px;
+}
+
+
+.imagem_mesa{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 295px;
+    left: 900px;
+}
+
+.imagem_mesa > img{
+    height: 400px;
+    width: 400px;
+}
+
+
+.conteudo_sobre_img{
+    display: flex;
+}
+
+.conteudo_sobre_dados{
+    margin-top: 130px;
+    padding-bottom: 119px;
+}
+
+.conteudo_sobre_dados > h1{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.conteudo_sobre_dados > h3{
+    padding-bottom: 30px;
+}
+
+.conteudo_sobre_img > img{
+    height: 500px;
+    margin-top: 80px;
+}
+
+.imagem_freelancer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imagem_freelancer > img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 10px;
+}
+
+.conteudo_contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 340px;
+}
+
+.formulario {
+    padding-top: 40px;
+    margin-left: 100px;
+    font-size: 18px;
+    padding-bottom: 29px;
+}
+
+.icone_linkedin {
+    position: absolute;
+    left: 1050px;
+    top: 895px;
+    height: 40px;
+    width: 40px;
+}
+
+.conteudo_projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.conteudo_projetos > h1{
+    color: white;
+    font-size: 40px;
+}
+
+.conteudo_projetos > h3{
+    padding-top: 8px;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.colunas{
+    display: grid;
+    grid-template-columns: 400px 500px;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+.projetos{
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+
+.projetos > img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.imagem_foguete > img{
+    width: 300px;
+    height: 300px;
+}
+
+.imagem_foguete{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 651px;
+    left: 1123px;
+}
