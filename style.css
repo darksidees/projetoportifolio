@@ -201,3 +201,211 @@ footer{
     top: 651px;
     left: 1083px;
 }
+
+
+@media only screen and (max-width: 720px) {
+
+    body{
+        background: rgb(43,251,248);
+        background: linear-gradient(90deg, rgba(43,251,248,1) 0%, rgba(251,43,150,1) 100%);
+        font-family: Orbitron;
+    }
+
+    
+    footer{
+        background: black;
+        padding: 30px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .cabeçalho{
+        display: flex;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .menu_opções{
+        display: flex;
+        font-size: 28px;
+        font-weight: 700;
+        margin-left: 50px;
+        gap: 30px;
+        color: black;
+        text-decoration: underline;
+    }
+
+    .divisão_menu{
+        margin-top: 50px;
+        border-top: 3px solid black;
+        padding-bottom: 150px;
+    }
+
+    .saudação{
+        margin-left: 30px;
+        font-size: 45px;
+    }
+
+    .conteudo{
+        margin-left: 125px;
+        margin-top: 665px;
+    }
+
+    .conteudo > h1{
+        font-size: 46px;
+        color: white;
+    }
+
+    .conteudo > h2{
+        padding-top: 15px;
+        font-size: 30px;    
+    }
+
+    .especializações{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        height: 120px;
+        width: 120px;
+        padding-top: 30px;
+        padding-left: 80px;
+        margin-bottom: 221px;
+    }
+
+    .imagem_mesa{
+        display: flex;
+        flex-direction: row-reverse;
+        position: absolute;
+        top: 495px;
+        left: 50px;
+    }
+
+    .imagem_mesa > img{
+        height: 600px;
+        width: 600px;
+    }
+
+    .conteudo_sobre_img > img{
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        top: 140px;
+        left: 100px;
+    }
+
+    .conteudo_sobre_dados{
+        padding-top: 350px;
+        margin-left: 30px;
+    }
+
+    .conteudo_sobre_dados > h1{
+        color: white;
+        font-size: 45px;
+        padding-bottom: 70px;
+    }
+
+    .conteudo_sobre_dados > h2{
+        font-size: 19px;
+        padding-bottom: 30px;
+    }
+
+    .conteudo_sobre_dados > h3{
+        padding-bottom: 59px;
+    }
+
+
+    .imagem_freelancer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .imagem_freelancer > img{
+        width: 650px;
+        height: 650px;
+        position: absolute;
+        top: 80px;
+    }
+
+    .conteudo_contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 400px;
+    }
+
+    .conteudo_contato > h3{
+        font-size: 20px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .formulario {
+        padding-top: 70px;
+        margin-left: 20px;
+        font-size: 20px;
+        padding-bottom: 200px;
+    }
+
+    .icone_linkedin {
+        position: absolute;
+        left: 640px;
+        top: 1185px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .conteudo_projetos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 526px;
+    }
+
+    .conteudo_projetos > h1{
+        color: white;
+        font-size: 50px;
+    }
+
+    .conteudo_projetos > h3{
+        padding-top: 15px;
+        font-size: 26px;
+        margin-left: 50px;
+        padding-bottom: 61px;
+    }
+
+    .colunas{
+        display: grid;
+        grid-template-columns: 50px 400px;
+        gap: 220px;
+    }
+
+    .projetos{
+        text-decoration: underline;
+        text-align: center;
+        color: black;
+    }
+
+    .projetos > img{
+        width: 300px;
+        height: 180px;
+        border-radius: 10px;
+    }
+
+    .imagem_foguete > img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .imagem_foguete{
+        display: flex;
+        flex-direction: row-reverse;
+        position: absolute;
+        top: 1445px;
+        left: 420px;
+    }
+}
